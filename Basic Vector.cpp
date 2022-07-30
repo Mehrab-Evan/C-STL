@@ -36,6 +36,9 @@ int main()
     for(int i=0; i<V2.size(); i++) {
         cout << V2[i] << " ";
     }
+    cout << *max_element(V2.begin(), V2.end()) << endl;
+    cout << *min_element(V2.begin(), V2.end()) << endl;
+    
     cout << endl;
 
 }
